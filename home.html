@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Churn Prediction</title>
+</head>
+<body>
+    <h1>Customer Churn Prediction</h1>
+    <form method="POST" action="/">
+        <label>SeniorCitizen:</label>
+        <input type="text" name="query1"><br>
+        <label>MonthlyCharges:</label>
+        <input type="text" name="query2"><br>
+        <label>TotalCharges:</label>
+        <input type="text" name="query3"><br>
+        <label>Gender:</label>
+        <input type="text" name="query4"><br>
+        <label>Partner:</label>
+        <input type="text" name="query5"><br>
+        <label>Dependents:</label>
+        <input type="text" name="query6"><br>
+        <label>PhoneService:</label>
+        <input type="text" name="query7"><br>
+        <label>MultipleLines:</label>
+        <input type="text" name="query8"><br>
+        <label>InternetService:</label>
+        <input type="text" name="query9"><br>
+        <label>OnlineSecurity:</label>
+        <input type="text" name="query10"><br>
+        <label>OnlineBackup:</label>
+        <input type="text" name="query11"><br>
+        <label>DeviceProtection:</label>
+        <input type="text" name="query12"><br>
+        <label>TechSupport:</label>
+        <input type="text" name="query13"><br>
+        <label>StreamingTV:</label>
+        <input type="text" name="query14"><br>
+        <label>StreamingMovies:</label>
+        <input type="text" name="query15"><br>
+        <label>Contract:</label>
+        <input type="text" name="query16"><br>
+        <label>PaperlessBilling:</label>
+        <input type="text" name="query17"><br>
+        <label>PaymentMethod:</label>
+        <input type="text" name="query18"><br>
+        <label>Tenure:</label>
+        <input type="text" name="query19"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h2>{{ output1 }}</h2>
+    <h3>{{ output2 }}</h3>
+</body>
+</html>
